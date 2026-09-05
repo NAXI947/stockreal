@@ -1,0 +1,6293 @@
+[
+  {
+    "endpoint_code": "LHV-DOC-013",
+    "source_id": 13,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "a",
+        "GetMainMonitor_w30"
+      ],
+      [
+        "c",
+        "StockYiDongKanPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.7.0.12"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "Money",
+        "2"
+      ],
+      [
+        "apiv",
+        "w31"
+      ],
+      [
+        "StockID",
+        "600126"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "IsBS",
+        "0"
+      ]
+    ],
+    "route_key": "w31",
+    "credential_profile": "LHV-DOC-013",
+    "supports_batch": false,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-014",
+    "source_id": 14,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetWeiTuo_W14"
+      ],
+      [
+        "st",
+        "100"
+      ],
+      [
+        "c",
+        "StockL2Data"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Tur",
+        "30"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "2"
+      ],
+      [
+        "Vol",
+        "500"
+      ],
+      [
+        "StockID",
+        "000001"
+      ],
+      [
+        "VType",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VOrder",
+        "0"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-014",
+    "supports_batch": false,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-015",
+    "source_id": 15,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetPlateInfo_w38"
+      ],
+      [
+        "st",
+        "1000"
+      ],
+      [
+        "c",
+        "DailyLimitResumption"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "apiv",
+        "w42"
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-015",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-105",
+    "source_id": 105,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "MorningBiddingList"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "1"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "10"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-105",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-100",
+    "source_id": 100,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://applhb.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetStockList"
+      ],
+      [
+        "st",
+        "500"
+      ],
+      [
+        "c",
+        "LongHuBang"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Time",
+        ""
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "2"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-100",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-101",
+    "source_id": 101,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://applhb.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "c",
+        "Stock"
+      ],
+      [
+        "a",
+        "GetNewOneStockInfo"
+      ],
+      [
+        "Type",
+        "0"
+      ],
+      [
+        "Time",
+        "2026-04-02"
+      ],
+      [
+        "StockID",
+        "000720"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-101",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-041",
+    "source_id": 41,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "RealRankingInfo"
+      ],
+      [
+        "st",
+        "60"
+      ],
+      [
+        "apiv",
+        "w26"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "c",
+        "ZhiShuRanking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "ZSType",
+        "7"
+      ]
+    ],
+    "route_key": "w26",
+    "credential_profile": "LHV-DOC-041",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-042",
+    "source_id": 42,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "RealRankingInfo"
+      ],
+      [
+        "st",
+        "60"
+      ],
+      [
+        "c",
+        "ZhiShuRanking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "RStart",
+        "0925"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "Date",
+        "2025-06-13"
+      ],
+      [
+        "REnd",
+        "1500"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "ZSType",
+        "7"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-042",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-043",
+    "source_id": 43,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "RealRankingInfo"
+      ],
+      [
+        "st",
+        "60"
+      ],
+      [
+        "c",
+        "ZhiShuRanking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "RStart",
+        "0925"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "REnd",
+        "0930"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "ZSType",
+        "7"
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-043",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-031",
+    "source_id": 31,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetStockBid"
+      ],
+      [
+        "c",
+        "StockL2Data"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "StockID",
+        "000785"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-031",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-115",
+    "source_id": 115,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "MorningBiddingList"
+      ],
+      [
+        "st",
+        "60"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "0"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "4"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-115",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-030",
+    "source_id": 30,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "MorningBiddingList"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "0"
+      ],
+      [
+        "Date",
+        "2025-06-19"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "4"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-030",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-103",
+    "source_id": 103,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "a",
+        "GetWPQC"
+      ],
+      [
+        "c",
+        "StockBidYiDong"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-103",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-104",
+    "source_id": 104,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "a",
+        "MorningBiddingList"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "4"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-104",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-112",
+    "source_id": 112,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "MorningBiddingList"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "3"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "6"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-112",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-113",
+    "source_id": 113,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetBidVolKLine"
+      ],
+      [
+        "st",
+        "130"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "d"
+      ],
+      [
+        "c",
+        "StockLineData"
+      ],
+      [
+        "StockID",
+        "688523"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-113",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-046",
+    "source_id": 46,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "TSZB",
+        "0"
+      ],
+      [
+        "a",
+        "ZhiShuStockList_W8"
+      ],
+      [
+        "st",
+        "1000"
+      ],
+      [
+        "c",
+        "ZhiShuRanking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "RStart",
+        "0925"
+      ],
+      [
+        "old",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "IsZZ",
+        "0"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "Date",
+        "2025-06-13"
+      ],
+      [
+        "REnd",
+        "1500"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "IsKZZType",
+        "0"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "PlateID",
+        "801057"
+      ],
+      [
+        "TSZB_Type",
+        "0"
+      ],
+      [
+        "filterType",
+        "0"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-046",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-010",
+    "source_id": 10,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/pool/detail",
+    "query_template": [
+      [
+        "pool_name",
+        "limit_up"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-010",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-011",
+    "source_id": 11,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/pool/detail",
+    "query_template": [
+      [
+        "pool_name",
+        "limit_up_broken"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-011",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-012",
+    "source_id": 12,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/pool/detail",
+    "query_template": [
+      [
+        "pool_name",
+        "limit_down"
+      ],
+      [
+        "date",
+        ""
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-012",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-016",
+    "source_id": 16,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "RiseFallAnalysis"
+      ],
+      [
+        "apiv",
+        "w43"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.22.0.2"
+      ]
+    ],
+    "route_key": "w43",
+    "credential_profile": "LHV-DOC-016",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-017",
+    "source_id": 17,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "RiseFallAnalysis"
+      ],
+      [
+        "st",
+        "250"
+      ],
+      [
+        "apiv",
+        "w43"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.22.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w43",
+    "credential_profile": "LHV-DOC-017",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-018",
+    "source_id": 18,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "MoodNumCount"
+      ],
+      [
+        "apiv",
+        "w43"
+      ],
+      [
+        "c",
+        "MarketMood"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.22.0.2"
+      ]
+    ],
+    "route_key": "w43",
+    "credential_profile": "LHV-DOC-018",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-019",
+    "source_id": 19,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetPlate_Info_QJ"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "c",
+        "ZhiShuRanking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.2"
+      ],
+      [
+        "PlateID",
+        "801900"
+      ],
+      [
+        "Date",
+        ""
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-019",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-020",
+    "source_id": 20,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetPlate_Info_QJ"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "c",
+        "ZhiShuRanking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.2"
+      ],
+      [
+        "PlateID",
+        "801902"
+      ],
+      [
+        "Date",
+        ""
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-020",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-021",
+    "source_id": 21,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetPlate_Info_QJ"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "c",
+        "ZhiShuRanking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.2"
+      ],
+      [
+        "PlateID",
+        "801903"
+      ],
+      [
+        "Date",
+        ""
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-021",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-022",
+    "source_id": 22,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "RiseFallAnalysis"
+      ],
+      [
+        "apiv",
+        "w43"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.22.0.2"
+      ]
+    ],
+    "route_key": "w43",
+    "credential_profile": "LHV-DOC-022",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-023",
+    "source_id": 23,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "ChangeStatistics"
+      ],
+      [
+        "st",
+        "10"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-023",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-024",
+    "source_id": 24,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "ChangeStatistics"
+      ],
+      [
+        "st",
+        "100"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-024",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-007",
+    "source_id": 7,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetKLineDay_W14"
+      ],
+      [
+        "st",
+        "111"
+      ],
+      [
+        "c",
+        "StockLineData"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "apiv",
+        "w40"
+      ],
+      [
+        "Type",
+        "d"
+      ],
+      [
+        "StockID",
+        "302132"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Is_FS",
+        "1"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-007",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-008",
+    "source_id": 8,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetStockTrendIncremental"
+      ],
+      [
+        "c",
+        "StockL2Data"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "StockID",
+        "002278"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-008",
+    "supports_batch": false,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-009",
+    "source_id": 9,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetStockPanKou"
+      ],
+      [
+        "c",
+        "StockL2Data"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "StockID",
+        "000001"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-009",
+    "supports_batch": false,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-106",
+    "source_id": 106,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetStockTrend"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "c",
+        "StockL2History"
+      ],
+      [
+        "StockID",
+        "300322"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Day",
+        "20250708"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-106",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-107",
+    "source_id": 107,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetZhiShuKLine"
+      ],
+      [
+        "st",
+        "630"
+      ],
+      [
+        "c",
+        "ZhiShuKLine"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "d"
+      ],
+      [
+        "StockID",
+        "SH000001"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-107",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-025",
+    "source_id": 25,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/pool/detail",
+    "query_template": [
+      [
+        "pool_name",
+        "limit_up"
+      ],
+      [
+        "date",
+        "2024-11-14"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-025",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-026",
+    "source_id": 26,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/pool/detail",
+    "query_template": [
+      [
+        "pool_name",
+        "limit_up_broken"
+      ],
+      [
+        "date",
+        "2024-11-14"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-026",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-027",
+    "source_id": 27,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/pool/detail",
+    "query_template": [
+      [
+        "pool_name",
+        "limit_down"
+      ],
+      [
+        "date",
+        "2024-12-26"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-027",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-028",
+    "source_id": 28,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/pool/detail",
+    "query_template": [
+      [
+        "pool_name",
+        "yesterday_limit_up"
+      ],
+      [
+        "date",
+        "2025-12-26"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-028",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-032",
+    "source_id": 32,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://api.fupanwang.com/kpl/zhibo",
+    "query_template": [],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-032",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-033",
+    "source_id": 33,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "ZhiBoContent"
+      ],
+      [
+        "st",
+        "0"
+      ],
+      [
+        "c",
+        "HisConceptionPoint"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "index",
+        "0"
+      ],
+      [
+        "Date",
+        "YYYY-MM-DD"
+      ],
+      [
+        "apiv",
+        "w40"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-033",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-034",
+    "source_id": 34,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/market_indicator/line",
+    "query_template": [
+      [
+        "fields",
+        "rise_count,fall_count"
+      ],
+      [
+        "date",
+        "2024-12-26"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-034",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-035",
+    "source_id": 35,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/market_indicator/line",
+    "query_template": [
+      [
+        "fields",
+        "limit_up_count,limit_down_count"
+      ],
+      [
+        "date",
+        "2024-12-26"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-035",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-036",
+    "source_id": 36,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/market_indicator/line",
+    "query_template": [
+      [
+        "fields",
+        "limit_up_broken_count,limit_up_broken_ratio"
+      ],
+      [
+        "date",
+        "2024-12-26"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-036",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-037",
+    "source_id": 37,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/market_indicator/line",
+    "query_template": [
+      [
+        "fields",
+        "yesterday_limit_up_avg_pcp"
+      ],
+      [
+        "date",
+        "2024-12-26"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-037",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-038",
+    "source_id": 38,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/market_indicator/line",
+    "query_template": [
+      [
+        "fields",
+        "market_temperature"
+      ],
+      [
+        "date",
+        "2024-12-26"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-038",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-039",
+    "source_id": 39,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/surge_stock/stocks",
+    "query_template": [
+      [
+        "date",
+        "20241226"
+      ],
+      [
+        "normal",
+        "true"
+      ],
+      [
+        "uplimit",
+        "true"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-039",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-040",
+    "source_id": 40,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://flash-api.xuangubao.com.cn/api/surge_stock/plates",
+    "query_template": [
+      [
+        "date",
+        "1735185263"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-040",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-049",
+    "source_id": 49,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "1"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-049",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-050",
+    "source_id": 50,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "2"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-050",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-051",
+    "source_id": 51,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "3"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-051",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-052",
+    "source_id": 52,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "4"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-052",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-053",
+    "source_id": 53,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "5"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-053",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-048",
+    "source_id": 48,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetKLineZhangTing"
+      ],
+      [
+        "a",
+        "GetDayZhangTing"
+      ],
+      [
+        "apiv",
+        "w24"
+      ],
+      [
+        "apiv",
+        "w40"
+      ],
+      [
+        "c",
+        "StockLineData"
+      ],
+      [
+        "c",
+        "HisLimitResumption"
+      ],
+      [
+        "StockID",
+        "000001\\"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-048",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-047",
+    "source_id": 47,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetKLineZhangTing"
+      ],
+      [
+        "apiv",
+        "w24"
+      ],
+      [
+        "c",
+        "StockLineData"
+      ],
+      [
+        "StockID",
+        "000001"
+      ]
+    ],
+    "route_key": "w24",
+    "credential_profile": "LHV-DOC-047",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-054",
+    "source_id": 54,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "st",
+        "1000"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.7.0.12"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "1"
+      ],
+      [
+        "apiv",
+        "w31"
+      ],
+      [
+        "Type",
+        "4"
+      ],
+      [
+        "Day",
+        "2024-10-15"
+      ]
+    ],
+    "route_key": "w31",
+    "credential_profile": "LHV-DOC-054",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-055",
+    "source_id": 55,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "2"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-055",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-056",
+    "source_id": 56,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "3"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-056",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-057",
+    "source_id": 57,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "4"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-057",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-058",
+    "source_id": 58,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.18.0.2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "5"
+      ],
+      [
+        "apiv",
+        "w39"
+      ],
+      [
+        "Type",
+        "4"
+      ]
+    ],
+    "route_key": "w39",
+    "credential_profile": "LHV-DOC-058",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-059",
+    "source_id": 59,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "apiv",
+        "w40"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "1"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-059",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-060",
+    "source_id": 60,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "apiv",
+        "w40"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "2"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-060",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-061",
+    "source_id": 61,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "apiv",
+        "w40"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "3"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-061",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-062",
+    "source_id": 62,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "apiv",
+        "w40"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "4"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-062",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-063",
+    "source_id": 63,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "2000"
+      ],
+      [
+        "apiv",
+        "w40"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "5"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-063",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-064",
+    "source_id": 64,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "1000"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "1"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "Day",
+        "2025-09-01"
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-064",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-065",
+    "source_id": 65,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "1000"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "2"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "Day",
+        "2025-09-01"
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-065",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-066",
+    "source_id": 66,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "1000"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "3"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "Day",
+        "2025-09-01"
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-066",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-067",
+    "source_id": 67,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "1000"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "4"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "Day",
+        "2025-09-01"
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-067",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-068",
+    "source_id": 68,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "DailyLimitPerformance2"
+      ],
+      [
+        "st",
+        "1000"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PidType",
+        "4"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "Day",
+        "2025-09-01"
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-068",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-069",
+    "source_id": 69,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GroupCount_w28"
+      ],
+      [
+        "c",
+        "StockNewHigh"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.8"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "0_0_0_0_0"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-069",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-070",
+    "source_id": 70,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "Radar"
+      ],
+      [
+        "st",
+        "100"
+      ],
+      [
+        "apiv",
+        "w33"
+      ],
+      [
+        "c",
+        "HomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.11.0.6"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w33",
+    "credential_profile": "LHV-DOC-070",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-071",
+    "source_id": 71,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "GetHotPHB"
+      ],
+      [
+        "st",
+        "50"
+      ],
+      [
+        "apiv",
+        "w29"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "c",
+        "StockBidYiDong"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w29",
+    "credential_profile": "LHV-DOC-071",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-072",
+    "source_id": 72,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GlobalCommon"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "GlobalIndex"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "View",
+        "1,2,3,4,5,6"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-072",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-076",
+    "source_id": 76,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetZhangTingGene"
+      ],
+      [
+        "apiv",
+        "w42"
+      ],
+      [
+        "c",
+        "StockL2Data"
+      ],
+      [
+        "StockID",
+        "001330"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.21.0.0"
+      ]
+    ],
+    "route_key": "w42",
+    "credential_profile": "LHV-DOC-076",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-077",
+    "source_id": 77,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Date",
+        "2024-03-29"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "PhoneOSNew",
+        "2"
+      ],
+      [
+        "VerSion",
+        "5.13.0.3"
+      ],
+      [
+        "a",
+        "GetPMSL_KQXY"
+      ],
+      [
+        "apiv",
+        "w35"
+      ],
+      [
+        "c",
+        "FuPanLa"
+      ],
+      [
+        "st",
+        "20"
+      ]
+    ],
+    "route_key": "w35",
+    "credential_profile": "LHV-DOC-077",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-078",
+    "source_id": 78,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetPlate_Info_QJ"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "c",
+        "ZhiShuRanking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "PlateID",
+        "801062"
+      ],
+      [
+        "Date",
+        ""
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-078",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-079",
+    "source_id": 79,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetBKJJ_W36"
+      ],
+      [
+        "c",
+        "StockBidYiDong"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.8"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-079",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-080",
+    "source_id": 80,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "GetBKJJBL"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "IsLB",
+        "0"
+      ],
+      [
+        "c",
+        "StockBidYiDong"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "IsZT",
+        "0"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.8"
+      ],
+      [
+        "Isst",
+        "1"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "filter",
+        "1"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "StockID",
+        "801519"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-080",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-094",
+    "source_id": 94,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetStockIDPlate"
+      ],
+      [
+        "apiv",
+        "w43"
+      ],
+      [
+        "Type",
+        "2"
+      ],
+      [
+        "c",
+        "StockL2Data"
+      ],
+      [
+        "StockID",
+        "002931"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.22.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w43",
+    "credential_profile": "LHV-DOC-094",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-116",
+    "source_id": 116,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetPMSL_KQXY"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "FuPanLa"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-116",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-075",
+    "source_id": 75,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetStockDaDanTrendIncremental"
+      ],
+      [
+        "c",
+        "StockL2Data"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Time",
+        "{time_param}"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "StockID",
+        "300721"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-075",
+    "supports_batch": false,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-074",
+    "source_id": 74,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetStockChouMa_New"
+      ],
+      [
+        "c",
+        "StockL2History"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "StockID",
+        "002265"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Day",
+        "20250717"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-074",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-081",
+    "source_id": 81,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "GetInterviewsByDateZS"
+      ],
+      [
+        "st",
+        "30"
+      ],
+      [
+        "c",
+        "StockLineData"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.8"
+      ],
+      [
+        "DEnd",
+        "2026-05-13"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "DStart",
+        "2025-08-18"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "1"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-081",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-082",
+    "source_id": 82,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "GetInterviewsByDateStock"
+      ],
+      [
+        "st",
+        "30"
+      ],
+      [
+        "c",
+        "StockLineData"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.20.0.8"
+      ],
+      [
+        "DEnd",
+        "2025-08-19"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "DStart",
+        "2025-08-12"
+      ],
+      [
+        "apiv",
+        "w41"
+      ],
+      [
+        "Type",
+        "2"
+      ]
+    ],
+    "route_key": "w41",
+    "credential_profile": "LHV-DOC-082",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-083",
+    "source_id": 83,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "c",
+        "ZhuLiChiCang"
+      ],
+      [
+        "a",
+        "GGList_JGCC"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "30"
+      ],
+      [
+        "IsBX",
+        "0"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-083",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-084",
+    "source_id": 84,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "ZhiBoContent"
+      ],
+      [
+        "st",
+        "0"
+      ],
+      [
+        "c",
+        "HisConceptionPoint"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "index",
+        "0"
+      ],
+      [
+        "Date",
+        "YYYY-MM-DD"
+      ],
+      [
+        "apiv",
+        "w40"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-084",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-085",
+    "source_id": 85,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "c",
+        "ZhuLiChiCang"
+      ],
+      [
+        "a",
+        "GGList_JGCC_Plate_Stocks"
+      ],
+      [
+        "IndexID",
+        "801001"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "IsBX",
+        "0"
+      ],
+      [
+        "SonIndexID",
+        ""
+      ],
+      [
+        "Date",
+        "2025-12-31"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-085",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-086",
+    "source_id": 86,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "GGList_BXZJ"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "c",
+        "ZhuLiChiCang"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "Date",
+        ""
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-086",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-087",
+    "source_id": 87,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "ZhiBoContent"
+      ],
+      [
+        "st",
+        "0"
+      ],
+      [
+        "c",
+        "HisConceptionPoint"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "index",
+        "0"
+      ],
+      [
+        "Date",
+        "YYYY-MM-DD"
+      ],
+      [
+        "apiv",
+        "w40"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-087",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-088",
+    "source_id": 88,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "1"
+      ],
+      [
+        "a",
+        "GGList_BXZJ"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "c",
+        "ZhuLiChiCang"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "Date",
+        ""
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-088",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-089",
+    "source_id": 89,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "ZhiBoContent"
+      ],
+      [
+        "st",
+        "0"
+      ],
+      [
+        "c",
+        "HisConceptionPoint"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.19.0.0"
+      ],
+      [
+        "index",
+        "0"
+      ],
+      [
+        "Date",
+        "YYYY-MM-DD"
+      ],
+      [
+        "apiv",
+        "w40"
+      ]
+    ],
+    "route_key": "w40",
+    "credential_profile": "LHV-DOC-089",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-097",
+    "source_id": 97,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://applhb.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "InfoList"
+      ],
+      [
+        "st",
+        "10"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "Topic"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-097",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-098",
+    "source_id": 98,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://applhb.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "InfoZS"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "Topic"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "ZS",
+        "801660"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "ID",
+        "2160"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-098",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-099",
+    "source_id": 99,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://applhb.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "InfoZS"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "Topic"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "ZS",
+        "801660"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "ID",
+        "2160"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-099",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-090",
+    "source_id": 90,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetPianLiZhi_Index"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "StockBidYiDong"
+      ],
+      [
+        "ZDJK_Type",
+        "1"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-090",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-108",
+    "source_id": 108,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w43"
+      ],
+      [
+        "c",
+        "StockBidYiDong"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.22.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "a",
+        "GetYDTP_ZDJK_Today"
+      ]
+    ],
+    "route_key": "w43",
+    "credential_profile": "LHV-DOC-108",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-109",
+    "source_id": 109,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphwshhq.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w43"
+      ],
+      [
+        "c",
+        "StockBidYiDong"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.22.0.2"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "a",
+        "GetPianLiZhi_Many"
+      ]
+    ],
+    "route_key": "w43",
+    "credential_profile": "LHV-DOC-109",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-095",
+    "source_id": 95,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetTopList"
+      ],
+      [
+        "st",
+        "1"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "PCNewsFlash"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-095",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-096",
+    "source_id": 96,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetList"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "c",
+        "PCNewsFlash"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "0"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-096",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-091",
+    "source_id": 91,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://applhb.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "Order",
+        "10"
+      ],
+      [
+        "a",
+        "GuDongRenShu"
+      ],
+      [
+        "st",
+        "50"
+      ],
+      [
+        "c",
+        "YiDianCangWei"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "ShowDate",
+        "0"
+      ],
+      [
+        "IsNew",
+        "0"
+      ],
+      [
+        "EndDate",
+        "2026-04-15"
+      ],
+      [
+        "JiangFu",
+        "1"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "StratDate",
+        "2026-04-01"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Tag",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-091",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-092",
+    "source_id": 92,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://applhb.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "c",
+        "JGTracking"
+      ],
+      [
+        "a",
+        "JGStockListox"
+      ],
+      [
+        "OrderType",
+        "0"
+      ],
+      [
+        "index",
+        "0"
+      ],
+      [
+        "Type",
+        "1"
+      ],
+      [
+        "st",
+        "46"
+      ],
+      [
+        "JGID",
+        "5"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "",
+    "credential_profile": "LHV-DOC-092",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-093",
+    "source_id": 93,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://applhb.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetJGNameID"
+      ],
+      [
+        "c",
+        "JGTracking"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "IsPer",
+        "1"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "StockID",
+        "002600"
+      ],
+      [
+        "Day",
+        "2026-03-27"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-093",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-110",
+    "source_id": 110,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "MarketSCLNKLine"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "0"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-110",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-111",
+    "source_id": 111,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apphis.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "MarketSCLNKLine"
+      ],
+      [
+        "c",
+        "HisHomeDingPan"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "0"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-111",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-118",
+    "source_id": 118,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetHotSearch"
+      ],
+      [
+        "c",
+        "InteractData"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "Type",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-118",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-119",
+    "source_id": 119,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetBySelStock"
+      ],
+      [
+        "st",
+        "15"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "InteractData"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-119",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-120",
+    "source_id": 120,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetBySelStock"
+      ],
+      [
+        "st",
+        "15"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "InteractData"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-120",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-121",
+    "source_id": 121,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "a",
+        "GetSubSearch"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "c",
+        "StocksMechanMsg"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Index",
+        "0"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-121",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-122",
+    "source_id": 122,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesData"
+      ],
+      [
+        "Type",
+        "0"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-122",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-123",
+    "source_id": 123,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesData"
+      ],
+      [
+        "Type",
+        "3"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-123",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-124",
+    "source_id": 124,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesData"
+      ],
+      [
+        "Type",
+        "5"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-124",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-125",
+    "source_id": 125,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesData"
+      ],
+      [
+        "Type",
+        "6"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "Tag",
+        "0"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-125",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-126",
+    "source_id": 126,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesData"
+      ],
+      [
+        "Type",
+        "6"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "20"
+      ],
+      [
+        "Tag",
+        "1"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-126",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-127",
+    "source_id": 127,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesYJPL"
+      ],
+      [
+        "Type",
+        "4"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "100"
+      ],
+      [
+        "Tag",
+        "1"
+      ],
+      [
+        "Quart",
+        "2026-08-13"
+      ],
+      [
+        "Statu",
+        "0"
+      ],
+      [
+        "Selec",
+        "all,all"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-127",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-128",
+    "source_id": 128,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesYJPL"
+      ],
+      [
+        "Type",
+        "4"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "100"
+      ],
+      [
+        "Tag",
+        "3"
+      ],
+      [
+        "Quart",
+        "2026-09-30"
+      ],
+      [
+        "Statu",
+        "1"
+      ],
+      [
+        "Selec",
+        "all,all"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-128",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-129",
+    "source_id": 129,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesYJPL"
+      ],
+      [
+        "Type",
+        "4"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "100"
+      ],
+      [
+        "Tag",
+        "2"
+      ],
+      [
+        "Quart",
+        "2026-08-13"
+      ],
+      [
+        "Statu",
+        "0"
+      ],
+      [
+        "Selec",
+        "all,all"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-129",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  },
+  {
+    "endpoint_code": "LHV-DOC-130",
+    "source_id": 130,
+    "contract_version": "R3.5-candidate-1",
+    "config_version": "R3.5",
+    "method": "GET",
+    "method_status": "CANDIDATE",
+    "origin": "https://apparticle.longhuvip.com/w1/api/index.php",
+    "query_template": [
+      [
+        "apiv",
+        "w44"
+      ],
+      [
+        "PhoneOSNew",
+        "1"
+      ],
+      [
+        "VerSion",
+        "5.23.0.4"
+      ],
+      [
+        "c",
+        "StockDataCenter"
+      ],
+      [
+        "a",
+        "GetNoticesData"
+      ],
+      [
+        "Type",
+        "2"
+      ],
+      [
+        "Index",
+        "0"
+      ],
+      [
+        "st",
+        "30"
+      ],
+      [
+        "Tag",
+        "0"
+      ],
+      [
+        "Quart",
+        "2026-09-30"
+      ],
+      [
+        "Statu",
+        "0"
+      ],
+      [
+        "Order",
+        "0"
+      ],
+      [
+        "UserID",
+        "<CREDENTIAL>"
+      ],
+      [
+        "Token",
+        "<CREDENTIAL>"
+      ],
+      [
+        "DeviceID",
+        "<CREDENTIAL>"
+      ]
+    ],
+    "route_key": "w44",
+    "credential_profile": "LHV-DOC-130",
+    "supports_batch": null,
+    "contract_status": "UNVERIFIED",
+    "field_mapping": null
+  }
+]

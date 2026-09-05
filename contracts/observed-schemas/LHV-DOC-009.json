@@ -1,0 +1,388 @@
+{
+  "type": "dict",
+  "fields": {
+    "FXReason": {
+      "type": "str"
+    },
+    "Gang": {
+      "type": "str"
+    },
+    "ICon": {
+      "type": "int"
+    },
+    "JJZTM": {
+      "type": "int"
+    },
+    "JianChiDetail": {
+      "type": "str"
+    },
+    "JieJinDetail": {
+      "type": "str"
+    },
+    "PledgeReason": {
+      "type": "str"
+    },
+    "ZTReason": {
+      "type": "str"
+    },
+    "code": {
+      "type": "str"
+    },
+    "day": {
+      "type": "int"
+    },
+    "errcode": {
+      "type": "str"
+    },
+    "name": {
+      "type": "str"
+    },
+    "preclose_px": {
+      "type": "float"
+    },
+    "real": {
+      "type": "dict",
+      "fields": {
+        "PledgeRatio": {
+          "type": "int"
+        },
+        "TTMPeRate": {
+          "type": "float"
+        },
+        "actualcirculation_value": {
+          "type": "int"
+        },
+        "amount_in": {
+          "type": "int"
+        },
+        "amount_out": {
+          "type": "int"
+        },
+        "amplitude": {
+          "type": "float"
+        },
+        "avg_px": {
+          "type": "float"
+        },
+        "circulation_amount": {
+          "type": "int"
+        },
+        "circulation_value": {
+          "type": "int"
+        },
+        "down_px": {
+          "type": "float"
+        },
+        "dyn_pb_rate": {
+          "type": "float"
+        },
+        "entrust_rate": {
+          "type": "float"
+        },
+        "high_px": {
+          "type": "int"
+        },
+        "jtPeRate": {
+          "type": "float"
+        },
+        "last_px": {
+          "type": "float"
+        },
+        "low_px": {
+          "type": "float"
+        },
+        "market_value": {
+          "type": "int"
+        },
+        "open_px": {
+          "type": "float"
+        },
+        "pe_rate": {
+          "type": "float"
+        },
+        "phcj_turnover": {
+          "type": "int"
+        },
+        "phcj_volume": {
+          "type": "int"
+        },
+        "px_change": {
+          "type": "float"
+        },
+        "px_change_rate": {
+          "type": "float"
+        },
+        "time": {
+          "type": "int"
+        },
+        "total_amount": {
+          "type": "int"
+        },
+        "total_shares": {
+          "type": "int"
+        },
+        "total_turnover": {
+          "type": "int"
+        },
+        "turnover_ratio": {
+          "type": "float"
+        },
+        "up_px": {
+          "type": "float"
+        },
+        "vol_ratio": {
+          "type": "float"
+        }
+      }
+    },
+    "sourcetype": {
+      "type": "int"
+    },
+    "status": {
+      "type": "int"
+    },
+    "ts": {
+      "type": "int"
+    },
+    "ttag": {
+      "type": "float"
+    },
+    "weituo": {
+      "type": "dict",
+      "fields": {
+        "avg_askpx": {
+          "type": "float"
+        },
+        "avg_bidpx": {
+          "type": "float"
+        },
+        "b1": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b10": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b2": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b3": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b4": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b5": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b6": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b7": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b8": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "b9": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s1": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s10": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s2": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s3": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s4": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s5": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s6": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s7": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s8": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "s9": {
+          "type": "tuple",
+          "items": [
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ]
+        },
+        "totalb": {
+          "type": "int"
+        },
+        "totals": {
+          "type": "int"
+        }
+      }
+    }
+  }
+}

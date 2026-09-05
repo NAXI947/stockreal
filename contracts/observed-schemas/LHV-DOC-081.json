@@ -1,0 +1,18 @@
+{
+  "type": "dict",
+  "fields": {
+    "Count": {
+      "type": "int"
+    },
+    "List": {
+      "type": "list",
+      "variants": []
+    },
+    "errcode": {
+      "type": "str"
+    },
+    "ttag": {
+      "type": "float"
+    }
+  }
+}

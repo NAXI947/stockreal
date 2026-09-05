@@ -1,0 +1,83 @@
+{
+  "status": "OBSERVED_ONLY",
+  "semantics_verified": false,
+  "samples": [
+    {
+      "endpoint_code": "LHV-DOC-009",
+      "source_id": 9,
+      "path": "data/stage0/20260905T104122/LHV-DOC-009.sample.json",
+      "sha256": "b4bcb700276226855764830ac67e0d89753a4d2971de06a23b0fa986cd126969",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-009.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-008",
+      "source_id": 8,
+      "path": "data/stage0/20260905T104122/LHV-DOC-008.sample.json",
+      "sha256": "6b44faa594c88de13ec40926702a79c3b0e680b6ebaef5e61b7426c87e67ca6f",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-008.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-013",
+      "source_id": 13,
+      "path": "data/stage0/20260905T104122/LHV-DOC-013.sample.json",
+      "sha256": "09b1e7491c0014c82033b2058ab542a3e8bb1d79a0178d7a5808f17a9d668410",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-013.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-075",
+      "source_id": 75,
+      "path": "data/stage0/20260905T104122/LHV-DOC-075.sample.json",
+      "sha256": "4919adb0ad1ee2cfef1c6469bcb590351c396b5d417c39cb4efa412bbec6fddd",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-075.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-041",
+      "source_id": 41,
+      "path": "data/stage0/20260905T104122/LHV-DOC-041.sample.json",
+      "sha256": "9e5d45f7684a71c308aef1ca4cc5dd7eb6f9e385187941e0b049a63a64d7dba6",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-041.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-081",
+      "source_id": 81,
+      "path": "data/stage0/20260905T104122/LHV-DOC-081.sample.json",
+      "sha256": "5ab399620f827a223a09057e34a09a2caedbf5ccc53fdbadff10316bf4381cfe",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-081.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-036",
+      "source_id": 36,
+      "path": "data/stage0/20260905T104122/LHV-DOC-036.sample.json",
+      "sha256": "43b23abd387572a715f3e0b477d434a1b8ba7ae3d804784d756946fc566b6bff",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-036.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-038",
+      "source_id": 38,
+      "path": "data/stage0/20260905T104122/LHV-DOC-038.sample.json",
+      "sha256": "7dc2b353598647f6a739fa741077afcadf37b5023de395d70df3544421f8894d",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-038.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-103",
+      "source_id": 103,
+      "path": "data/stage0/20260905T104122/LHV-DOC-103.sample.json",
+      "sha256": "0a12ee6cd9a2200e7a53994010d6f109a461bd5ebcf797d8353d5e520323b454",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-103.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-108",
+      "source_id": 108,
+      "path": "data/stage0/20260905T104122/LHV-DOC-108.sample.json",
+      "sha256": "7df08327a33e29886aaca8f127fe7209c2cd0e6d79548d02c2c43a9b4feee844",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-108.json"
+    },
+    {
+      "endpoint_code": "LHV-DOC-090",
+      "source_id": 90,
+      "path": "data/stage0/20260905T104122/LHV-DOC-090.sample.json",
+      "sha256": "71065b978f4e59ce74e5efe7c90a3eda7f10aab724d4a2bf1d4165d260aa19ef",
+      "schema_path": "contracts/observed-schemas/LHV-DOC-090.json"
+    }
+  ]
+}

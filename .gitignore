@@ -53,3 +53,15 @@ Thumbs.db
 
 #  wff插件
 /wff-v1.9.2-skills-install-pack
+# Stage-0 private inputs and live response evidence
+/.secrets/
+/data/
+/bootstrap_stage0.py
+/finalize_stage0.py
+!README.md
+!AGENTS.md
+!docs/stage0/*.md
+
+/develop_iteration*.py
+!docs/PROGRESS.md
+!docs/CHANGELOG.md

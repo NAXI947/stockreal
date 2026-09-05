@@ -1,0 +1,26 @@
+{
+  "config_version": "R3.5",
+  "recorded_at": "2026-09-05T10:58:38+08:00",
+  "sources": [
+    {
+      "name": "第三版开发方案R3.5.md",
+      "sha256": "16ef38370a09682b6c6b2fab0029acb053c278672a261dce684c3b41bd4896b4"
+    },
+    {
+      "name": "第三版指标公式和指标解释说明R3.5.md",
+      "sha256": "5f923a17098df035b6f5a2c1a28fc81c2525626decae9d601836b5455f740449"
+    },
+    {
+      "name": "第三版指标接口数据清单R3.5.md",
+      "sha256": "f0c8aad6e159994db9d48a84e738f3182b9577dc479aca3791ecb4847c753f11"
+    },
+    {
+      "name": "第三版整改建议R3.5.md",
+      "sha256": "4c6e7d424159faf582f90c09e0ffe3fea35439d3c0f5af5be256ba9387045de3"
+    },
+    {
+      "name": "第三版模块说明R3.5.md",
+      "sha256": "c6d29f5444d2541a24721b4cbb9ae50ce5262ce0f310ada00eab3a63eb8228a3"
+    }
+  ]
+}

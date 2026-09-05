@@ -1,0 +1,43 @@
+{
+  "recorded_at": "2026-09-05T11:12:03+08:00",
+  "environment": "36.134.112.19 Docker /root/stockreal",
+  "config_version": "R3.5",
+  "test_command": "docker compose run --rm dev",
+  "tests_run": 42,
+  "failures": 0,
+  "errors": 0,
+  "duration_seconds": 7.887,
+  "design_guard": "PASS",
+  "database": {
+    "contracts": 117,
+    "runs": 1,
+    "events": 11
+  },
+  "reimport_inserted": false,
+  "runtime_gate": {
+    "config_version": "R3.5",
+    "automatic_collection_enabled": false,
+    "directional_signals_enabled": false,
+    "calendar_status": "CALENDAR_MISSING",
+    "blockers": [
+      "AUTO_COLLECTION_DISABLED_BY_OWNER",
+      "FIELD_CONTRACTS_UNVERIFIED"
+    ],
+    "disabled_phase1_features": [
+      "TurnoverRate",
+      "TrendScore",
+      "AdjustedReturnSeries",
+      "TPlusNEvaluation",
+      "ChipDistribution",
+      "AIChat",
+      "AutoTrading"
+    ]
+  },
+  "new_upstream_requests_this_iteration": 0,
+  "completed": [
+    "GOV-01",
+    "S0-04",
+    "S0-05",
+    "P1-01a"
+  ]
+}

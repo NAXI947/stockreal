@@ -1,0 +1,69 @@
+{
+  "type": "dict",
+  "fields": {
+    "Name": {
+      "type": "str"
+    },
+    "begin_px": {
+      "type": "float"
+    },
+    "code": {
+      "type": "str"
+    },
+    "day": {
+      "type": "str"
+    },
+    "errcode": {
+      "type": "str"
+    },
+    "hprice": {
+      "type": "float"
+    },
+    "lprice": {
+      "type": "float"
+    },
+    "preclose_px": {
+      "type": "float"
+    },
+    "px_change_rate": {
+      "type": "float"
+    },
+    "time": {
+      "type": "str"
+    },
+    "time2": {
+      "type": "int"
+    },
+    "total_turnover": {
+      "type": "int"
+    },
+    "trend": {
+      "type": "list",
+      "variants": [
+        {
+          "items": [
+            {
+              "type": "str"
+            },
+            {
+              "type": "float"
+            },
+            {
+              "type": "float"
+            },
+            {
+              "type": "int"
+            },
+            {
+              "type": "int"
+            }
+          ],
+          "type": "tuple"
+        }
+      ]
+    },
+    "ttag": {
+      "type": "float"
+    }
+  }
+}

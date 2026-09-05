@@ -1,0 +1,33 @@
+{
+  "type": "dict",
+  "fields": {
+    "code": {
+      "type": "str"
+    },
+    "dadanjinge": {
+      "type": "list",
+      "variants": []
+    },
+    "day": {
+      "type": "str"
+    },
+    "errcode": {
+      "type": "str"
+    },
+    "max": {
+      "type": "int"
+    },
+    "min": {
+      "type": "int"
+    },
+    "time": {
+      "type": "int"
+    },
+    "time2": {
+      "type": "int"
+    },
+    "ttag": {
+      "type": "float"
+    }
+  }
+}

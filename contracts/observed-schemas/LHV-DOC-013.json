@@ -1,0 +1,53 @@
+{
+  "type": "dict",
+  "fields": {
+    "Is_param": {
+      "type": "int"
+    },
+    "List": {
+      "type": "list",
+      "variants": [
+        {
+          "items": [
+            {
+              "type": "str"
+            },
+            {
+              "type": "str"
+            },
+            {
+              "type": "str"
+            },
+            {
+              "type": "str"
+            },
+            {
+              "type": "str"
+            },
+            {
+              "type": "str"
+            }
+          ],
+          "type": "tuple"
+        }
+      ]
+    },
+    "Total": {
+      "type": "int"
+    },
+    "errcode": {
+      "type": "str"
+    },
+    "param": {
+      "type": "list",
+      "variants": [
+        {
+          "type": "str"
+        }
+      ]
+    },
+    "ttag": {
+      "type": "float"
+    }
+  }
+}
