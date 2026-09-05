@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-09-05T16:34:57.497659+08:00",
+  "test_command": "docker compose run --rm dev python -m unittest discover -s tests -q",
+  "tests": 95,
+  "seconds": 7.091,
+  "result": "PASS",
+  "manual_upstream_attempts": 7,
+  "automatic_collection_enabled": false,
+  "directional_signals_enabled": false,
+  "contract_pass": 0,
+  "browser_pages": 6,
+  "holdings_browser_save": "empty configuration idempotent; revision 0",
+  "responsive_width": 390,
+  "database_backup_restore": "PASS",
+  "public_web_port_opened": false,
+  "deployed_mode": "DIAGNOSTIC_PREVIEW",
+  "design_baseline": "PASS"
+}

@@ -1,0 +1,407 @@
+{
+  "config_version": "R3.5",
+  "status": "DOCUMENTED_CANDIDATES_ONLY",
+  "production_eligible": false,
+  "endpoints": [
+    {
+      "source_id": 13,
+      "data_path": "List",
+      "expected_columns_candidate": 6,
+      "provenance": {
+        "kind": "OWNER_SUPPLIED_ANNOTATED_CATALOG_SAMPLE",
+        "field": "sample_response_raw",
+        "sha256": "7c388bb0e816e0f3ada568fe0d644f256ab2c72069b4fa5b8f82a381a3065df5"
+      },
+      "contract_status": "UNVERIFIED",
+      "production_eligible": false,
+      "fields": [
+        {
+          "position": 0,
+          "documented_label": "买卖方",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 1,
+          "documented_label": "时间戳",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 2,
+          "documented_label": "成交量",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 3,
+          "documented_label": "金额",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 4,
+          "documented_label": "均价",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 5,
+          "documented_label": "时间",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        }
+      ],
+      "unresolved": [
+        "amount_and_volume_units",
+        "source_time_semantics",
+        "trading_session_samples"
+      ],
+      "documented_direction_candidates": {
+        "1": "被动卖",
+        "2": "主动买",
+        "3": "被动买",
+        "4": "主动卖"
+      }
+    },
+    {
+      "source_id": 41,
+      "data_path": "list",
+      "expected_columns_candidate": 19,
+      "provenance": {
+        "kind": "OWNER_SUPPLIED_ANNOTATED_CATALOG_SAMPLE",
+        "field": "sample_response_raw",
+        "sha256": "c29d0875a77557c02e6458eb0aab28d0f74dc748173990813558652e8a9fdfa3"
+      },
+      "contract_status": "UNVERIFIED",
+      "production_eligible": false,
+      "fields": [
+        {
+          "position": 0,
+          "documented_label": "板块代码",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 1,
+          "documented_label": "名称",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 2,
+          "documented_label": "强度",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 3,
+          "documented_label": "涨幅",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 4,
+          "documented_label": "涨速",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 5,
+          "documented_label": "成交额",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 6,
+          "documented_label": "主力净额",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 7,
+          "documented_label": "主买",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 8,
+          "documented_label": "主卖",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 9,
+          "documented_label": "量比",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 10,
+          "documented_label": "流通值",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 11,
+          "documented_label": null,
+          "mapping_status": "UNKNOWN",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": true
+        },
+        {
+          "position": 12,
+          "documented_label": "300万大单净额",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 13,
+          "documented_label": "总市值",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 14,
+          "documented_label": "机构增仓",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 15,
+          "documented_label": "今PE",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 16,
+          "documented_label": "明PE",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 17,
+          "documented_label": "强度2（未知）",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": true
+        },
+        {
+          "position": 18,
+          "documented_label": "涨幅2",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": true
+        }
+      ],
+      "unresolved": [
+        "amount_and_volume_units",
+        "source_time_semantics",
+        "trading_session_samples",
+        "pagination_stability",
+        "unlabelled_columns"
+      ]
+    },
+    {
+      "source_id": 75,
+      "data_path": "dadanjinge",
+      "expected_columns_candidate": 2,
+      "provenance": {
+        "kind": "OWNER_SUPPLIED_ANNOTATED_CATALOG_SAMPLE",
+        "field": "sample_response_raw",
+        "sha256": "5efd46ec17ff9e88e4f9b996a5145c41f47660097015821f6ddf0dd3c6fcd2c6"
+      },
+      "contract_status": "UNVERIFIED",
+      "production_eligible": false,
+      "fields": [
+        {
+          "position": 0,
+          "documented_label": "时刻",
+          "mapping_status": "OBSERVED_HH_MM_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 1,
+          "documented_label": "大单净额",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        }
+      ],
+      "unresolved": [
+        "amount_and_volume_units",
+        "source_time_semantics",
+        "trading_session_samples",
+        "cumulative_or_interval",
+        "Time_cursor_incremental_behavior"
+      ]
+    },
+    {
+      "source_id": 81,
+      "data_path": "List",
+      "expected_columns_candidate": 12,
+      "provenance": {
+        "kind": "OWNER_SUPPLIED_ANNOTATED_CATALOG_SAMPLE",
+        "field": "sample_response_raw",
+        "sha256": "477b92da334d16a6feb7da5eac3cfa8c72c71787f06cf6d3357bc96eed18c5cc"
+      },
+      "contract_status": "UNVERIFIED",
+      "production_eligible": false,
+      "fields": [
+        {
+          "position": 0,
+          "documented_label": "板块代码",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 1,
+          "documented_label": "板块名称",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 2,
+          "documented_label": "区间涨幅",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 3,
+          "documented_label": "主力买入",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 4,
+          "documented_label": "主力卖出",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 5,
+          "documented_label": "区间净额",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 6,
+          "documented_label": "区间成交",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 7,
+          "documented_label": "实际流通",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 8,
+          "documented_label": "净流入天数",
+          "mapping_status": "DOCUMENTED_CANDIDATE",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": false
+        },
+        {
+          "position": 9,
+          "documented_label": null,
+          "mapping_status": "UNKNOWN",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": true
+        },
+        {
+          "position": 10,
+          "documented_label": null,
+          "mapping_status": "UNKNOWN",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": true
+        },
+        {
+          "position": 11,
+          "documented_label": null,
+          "mapping_status": "UNKNOWN",
+          "unit_status": "UNVERIFIED",
+          "production_enabled": false,
+          "excluded_from_phase1": true
+        }
+      ],
+      "unresolved": [
+        "amount_and_volume_units",
+        "source_time_semantics",
+        "trading_session_samples",
+        "pagination_stability",
+        "unlabelled_columns"
+      ]
+    }
+  ]
+}

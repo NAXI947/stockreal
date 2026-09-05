@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-09-05T15:49:40+08:00",
+  "known_credential_scan": "PASS",
+  "files": {
+    "README.md": "038bed3725d1f7ef5a3c6d452e3f3b76ce937890c76fcb52fd22a3e82827de05",
+    "docs/PROGRESS.md": "71f4a38821f0c4a1e649688bc8b4898be08a3b409ff22b9c29d26752c49e03aa",
+    "docs/CHANGELOG.md": "c53cdc9113a3c59d67306103341eb74e48e47275fc8d972056c47581380cc090",
+    "docs/stage0/iteration2-verification.json": "af2cf41664d0608c9f0ee453cbbcb0b016a967ca91f4c2ca1da31e127c56e4e6",
+    "stockreal/audit_store.py": "07c35f291ffa6922e9bfe1b9a62386865d1fc59ec71413fe6699c25977fdc7fe",
+    "stockreal/gateway_core.py": "7287ccd4d1a2e2d3d3c80852ca6a3f64260d9a275054b6c04687d0a67d1f6bc4",
+    "stockreal/schedule_plan.py": "aa9ee0cc1a7360190cb171207062f09a4975b361f87a86f75bde23fee6d30e2d",
+    "tests/test_budget.py": "0e9d13cf5c33379ecb838791526010402750d901e5528e7c80cfd0121d894db3",
+    "tests/test_gateway_core.py": "a8d0ce8d8beacab50ef2288003e71313181a910fc0f3c54eb35458d5dfd56e26",
+    "tests/test_schedule_plan.py": "e2d9a0f44219f17fb2635968407fd5b00eba41dd00b3143f6a0f35e7d0380da6"
+  }
+}

@@ -96,7 +96,7 @@ def request_url(contract, profile):
                 raise ValueError('missing credential')
         if contract['source_id'] == 13 and key == 'st':
             value = '100'
-        if '<' in str(value) or '>' in str(value):
+        if '<' in str(value) or '>' in str(value) or re.search(r'[{][A-Za-z_][A-Za-z0-9_]*[}]', str(value)):
             raise ValueError('unresolved parameter')
         pairs.append((key, value))
     return contract['origin'] + '?' + urlencode(pairs)
@@ -135,6 +135,9 @@ def probe(contract, profile, outdir):
         schema_path = ROOT/'contracts/observed-schemas'/(contract['endpoint_code']+'.json')
         baseline = load(schema_path) if schema_path.exists() else None
         result.update(assess(contract['source_id'], cleaned, result['http_status'], baseline))
+        if baseline is not None and result.get('schema_status')=='DRIFT':
+            from stockreal.schema_diff import explain
+            result['schema_differences']=explain(cleaned,baseline)
         result['business_markers'] = {k: cleaned[k] for k in ('code', 'errcode', 'error', 'success', 'status') if isinstance(cleaned, dict) and k in cleaned}
         save(Path(outdir) / (contract['endpoint_code'] + '.sample.json'), cleaned)
     except HTTPError as exc:
