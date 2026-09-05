@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 配置（含敏感信息）
+config.json
+.env
+
+# 日志
+logs/
+*.log
+data/*.db
+data/*.db-*
+tmp/
+.pytest_cache/
+*.bak-*
+*.md
+!PROJECT_STRATEGY_AND_IMPLEMENTATION.md
+!PROJECT_ARCHITECTURE_AND_STRATEGY.md
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# CodeBuddy
+.codebuddy/
+
+# 接口信息
+/apitoken
+
+# 参考界面
+参考.png
+
+# 历史文档
+/archive/
+
+#  wff插件
+/wff-v1.9.2-skills-install-pack
