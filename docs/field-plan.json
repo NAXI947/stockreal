@@ -1,0 +1,311 @@
+{
+  "design_revision": "DATA-FIRST-20260906",
+  "status": "PROPOSED_NOT_RUNTIME",
+  "source_ids": [
+    8,
+    9,
+    34,
+    35,
+    36
+  ],
+  "component_count": 28,
+  "expanded_path_count": 44,
+  "fields": [
+    {
+      "source_id": 9,
+      "field_id": "symbol",
+      "paths": [
+        "$.code"
+      ],
+      "database_field": "stock_point.symbol",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 9,
+      "field_id": "stock_name",
+      "paths": [
+        "$.name"
+      ],
+      "database_field": "stock_point.name",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 9,
+      "field_id": "trading_status",
+      "paths": [
+        "$.status"
+      ],
+      "database_field": "stock_point.trading_status_raw",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 9,
+      "field_id": "source_time",
+      "paths": [
+        "$.ts"
+      ],
+      "database_field": "stock_point.source_time_ms",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 9,
+      "field_id": "trade_date",
+      "paths": [
+        "$.day"
+      ],
+      "database_field": "stock_point.trade_date",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 9,
+      "field_id": "last_price",
+      "paths": [
+        "$.real.last_px"
+      ],
+      "database_field": "stock_point.last_price_e6",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 9,
+      "field_id": "previous_close",
+      "paths": [
+        "$.preclose_px"
+      ],
+      "database_field": "stock_point.previous_close_e6",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 9,
+      "field_id": "ask_price_levels_1_5",
+      "paths": [
+        "$.weituo.s1[0]",
+        "$.weituo.s2[0]",
+        "$.weituo.s3[0]",
+        "$.weituo.s4[0]",
+        "$.weituo.s5[0]"
+      ],
+      "database_field": "book_level.price_e6 (ASK,1..5)",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 9,
+      "field_id": "ask_volume_levels_1_5",
+      "paths": [
+        "$.weituo.s1[1]",
+        "$.weituo.s2[1]",
+        "$.weituo.s3[1]",
+        "$.weituo.s4[1]",
+        "$.weituo.s5[1]"
+      ],
+      "database_field": "book_level.volume_shares (ASK,1..5)",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 9,
+      "field_id": "bid_price_levels_1_5",
+      "paths": [
+        "$.weituo.b1[0]",
+        "$.weituo.b2[0]",
+        "$.weituo.b3[0]",
+        "$.weituo.b4[0]",
+        "$.weituo.b5[0]"
+      ],
+      "database_field": "book_level.price_e6 (BID,1..5)",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 9,
+      "field_id": "bid_volume_levels_1_5",
+      "paths": [
+        "$.weituo.b1[1]",
+        "$.weituo.b2[1]",
+        "$.weituo.b3[1]",
+        "$.weituo.b4[1]",
+        "$.weituo.b5[1]"
+      ],
+      "database_field": "book_level.volume_shares (BID,1..5)",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 8,
+      "field_id": "symbol",
+      "paths": [
+        "$.code"
+      ],
+      "database_field": "stock_point.symbol",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 8,
+      "field_id": "trade_date",
+      "paths": [
+        "$.day"
+      ],
+      "database_field": "stock_point.trade_date",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 8,
+      "field_id": "minute",
+      "paths": [
+        "$.trend[*][0]"
+      ],
+      "database_field": "stock_point.source_time_ms",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 8,
+      "field_id": "price",
+      "paths": [
+        "$.trend[*][1]"
+      ],
+      "database_field": "stock_point.last_price_e6",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 8,
+      "field_id": "average_price",
+      "paths": [
+        "$.trend[*][2]"
+      ],
+      "database_field": "stock_point.vendor_average_price_e6",
+      "evidence_status": "SAMPLE_RECONCILED",
+      "source_unit": "元/股（样本推定）"
+    },
+    {
+      "source_id": 8,
+      "field_id": "volume",
+      "paths": [
+        "$.trend[*][3]"
+      ],
+      "database_field": "stock_point.volume_shares",
+      "evidence_status": "SAMPLE_RECONCILED",
+      "source_unit": "手（样本推定）"
+    },
+    {
+      "source_id": 8,
+      "field_id": "cumulative_turnover",
+      "paths": [
+        "$.total_turnover"
+      ],
+      "database_field": "stock_point.amount_e6（只放确认终点）",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 8,
+      "field_id": "previous_close",
+      "paths": [
+        "$.preclose_px"
+      ],
+      "database_field": "stock_point.previous_close_e6",
+      "evidence_status": "UNRESOLVED",
+      "source_unit": "未确定"
+    },
+    {
+      "source_id": 36,
+      "field_id": "broken_count",
+      "paths": [
+        "$.data[*].limit_up_broken_count"
+      ],
+      "database_field": "market_count_point.broken_count",
+      "evidence_status": "DOCUMENTED_AND_OBSERVED",
+      "source_unit": "家/次"
+    },
+    {
+      "source_id": 36,
+      "field_id": "broken_ratio",
+      "paths": [
+        "$.data[*].limit_up_broken_ratio"
+      ],
+      "database_field": "market_count_point.vendor_broken_ratio",
+      "evidence_status": "SAMPLE_RECONCILED",
+      "source_unit": "小数比例"
+    },
+    {
+      "source_id": 36,
+      "field_id": "source_time",
+      "paths": [
+        "$.data[*].timestamp"
+      ],
+      "database_field": "market_count_point.source_time_ms",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 35,
+      "field_id": "limit_up_count",
+      "paths": [
+        "$.data[*].limit_up_count"
+      ],
+      "database_field": "market_count_point.limit_up_count",
+      "evidence_status": "DOCUMENTED_AND_OBSERVED",
+      "source_unit": "家/次"
+    },
+    {
+      "source_id": 35,
+      "field_id": "limit_down_count",
+      "paths": [
+        "$.data[*].limit_down_count"
+      ],
+      "database_field": "market_count_point.limit_down_count",
+      "evidence_status": "DOCUMENTED_AND_OBSERVED",
+      "source_unit": "家/次"
+    },
+    {
+      "source_id": 35,
+      "field_id": "source_time",
+      "paths": [
+        "$.data[*].timestamp"
+      ],
+      "database_field": "market_count_point.source_time_ms",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    },
+    {
+      "source_id": 34,
+      "field_id": "rise_count",
+      "paths": [
+        "$.data[*].rise_count"
+      ],
+      "database_field": "market_count_point.rise_count",
+      "evidence_status": "DOCUMENTED_AND_OBSERVED",
+      "source_unit": "家/次"
+    },
+    {
+      "source_id": 34,
+      "field_id": "fall_count",
+      "paths": [
+        "$.data[*].fall_count"
+      ],
+      "database_field": "market_count_point.fall_count",
+      "evidence_status": "DOCUMENTED_AND_OBSERVED",
+      "source_unit": "家/次"
+    },
+    {
+      "source_id": 34,
+      "field_id": "source_time",
+      "paths": [
+        "$.data[*].timestamp"
+      ],
+      "database_field": "market_count_point.source_time_ms",
+      "evidence_status": "NOT_APPLICABLE",
+      "source_unit": "不适用"
+    }
+  ]
+}

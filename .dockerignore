@@ -1,7 +1,0 @@
-.git
-.secrets
-apitoken
-data
-tmp
-archive
-__pycache__

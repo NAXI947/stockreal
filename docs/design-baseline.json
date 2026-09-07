@@ -1,26 +1,52 @@
 {
   "config_version": "R3.5",
-  "recorded_at": "2026-09-05T10:58:38+08:00",
+  "recorded_at": "2026-09-06",
   "sources": [
     {
       "name": "第三版开发方案R3.5.md",
-      "sha256": "16ef38370a09682b6c6b2fab0029acb053c278672a261dce684c3b41bd4896b4"
+      "sha256": "6047da6f3b33cbace2a09d6eb8fb74db471f0e457fc938c8eef276f9e662bd2c"
     },
     {
       "name": "第三版指标公式和指标解释说明R3.5.md",
-      "sha256": "5f923a17098df035b6f5a2c1a28fc81c2525626decae9d601836b5455f740449"
+      "sha256": "6efcc580420bdeadc100c0fdba66fa4983139c3fd7eb4bbce85857a462b8dbbb"
     },
     {
       "name": "第三版指标接口数据清单R3.5.md",
-      "sha256": "f0c8aad6e159994db9d48a84e738f3182b9577dc479aca3791ecb4847c753f11"
+      "sha256": "a6273ccac6a362f3a7ad3582a96401422a549be8c5fa1fc88aacbed17e97e2a4"
     },
     {
       "name": "第三版整改建议R3.5.md",
-      "sha256": "4c6e7d424159faf582f90c09e0ffe3fea35439d3c0f5af5be256ba9387045de3"
+      "sha256": "80aee4fa82ef742bbd725866388467a56625ee3bc25052b1bf585439cb3edf65"
     },
     {
       "name": "第三版模块说明R3.5.md",
-      "sha256": "c6d29f5444d2541a24721b4cbb9ae50ce5262ce0f310ada00eab3a63eb8228a3"
+      "sha256": "21253916b209f5edd4b284e0f887b6781743fcee75709ebeb7943dda57409a32"
     }
-  ]
+  ],
+  "architecture_addenda": [
+    {
+      "name": "数据库架构R3.5.md",
+      "sha256": "c34522fe092501e5b5a5f13c662f52e1f3a355abedf3d20459679db9a76608b4",
+      "authorization": "用户要求最终文档集中根目录并删除无用文档。"
+    },
+    {
+      "name": "数据指标核实表R3.5.md",
+      "sha256": "d66b6d88af3242b49a4f47609f94fe70bf7de9877d6dd698434dc8146541bc36",
+      "authorization": "用户要求最终文档集中根目录并删除无用文档。"
+    },
+    {
+      "name": "README.md",
+      "sha256": "44d9a23d935421bb57af315f95332374949836c00f55f56ac37cab15d435803e",
+      "authorization": "用户要求最终文档集中根目录并删除无用文档。"
+    },
+    {
+      "name": "docs/field-plan.json",
+      "sha256": "af5b566dbc3c25aeee55b414d14748c4e076f572c8ed005e71490804000ba659",
+      "authorization": "用户要求最终文档集中根目录并删除无用文档。"
+    }
+  ],
+  "design_revision": "DATA-FIRST-20260906",
+  "status": "DESIGN_REVIEW_PENDING",
+  "authorization": "用户2026-09-06明确要求推倒重来并先重写文档；数据优先、最小范围、禁止扩展。",
+  "document_layout": "ROOT_FINAL_ONLY"
 }
